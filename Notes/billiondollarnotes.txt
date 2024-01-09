@@ -1,0 +1,26 @@
+REACT ISNT A FULL FLEDGED FRAMEFORM ITS A LIBRARYY
+NPM is everything but node package manager
+npm init => test => jest
+
+Two types of dependencies -> Dev Dep and Normal Dep
+^ caret upgrades minor upgrade of dependencies
+~ tilde upgrades major upgrade of dependencies
+
+packagejson keeps track of approx version of dependencies
+package lock.json keeps track of exact version of dependencies
+
+Transitive dependencies -> dependencies that have its own dependencies that have its own dependencies (dependencies tree)
+
+
+#Parcel
+There are lot of bundlers, parcel, veet, webpack, blabla
+just like we have npm, we have npx too, npx means executing a package, so if u want to execute a pkg, use npx
+Parcel basically goes to source index.html and build a dev app and host on local host 1234, Dev Build, 
+and HMR = Hot Module Replacement by using file watching algo written in C++ using caching for faster builds
+and image optimization also done by parcel
+it will minify the file also (Bundling) and also cmopress it
+it also has Differential bundling (support in older browsers)
+it also has tree shaking (remove unused code)
+
+
+CDNS are not preferred way to use REACT
