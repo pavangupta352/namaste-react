@@ -22,5 +22,36 @@ it will minify the file also (Bundling) and also cmopress it
 it also has Differential bundling (support in older browsers)
 it also has tree shaking (remove unused code)
 
+#browserslist
+this will take array of browser and tell what browsers should be compatible with our app
+
 
 CDNS are not preferred way to use REACT
+
+
+npm start means npm run start (start inside scripts inside package.json)
+
+JSX is not html inside javascript
+JS engine understands ECMA6 (ES6) not JSX
+so when we write JSX it gets TRANSPILED before it reaches the JS Engine, Transpiling is done by parcel - babel
+so //JSX => React.createElement => ReactElement - JS Object => HTMLElement(render) // babel's job is to convert jsx code to react.createElement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In react we have props, if we want to dynamically pass data to a component, we use props
+at the end of the day props are just normal arguments to a function
+we can also destructure props on the fly! "{resName, resCousing}" so we dont have to use props.resName
+
+ConfigDriven UI ==> 
