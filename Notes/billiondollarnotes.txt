@@ -1,4 +1,6 @@
+REACT IS FAST IN DOM MANIPULATION, ALL FRAMEWORKS TRYING TO UPDATE DOM EFFICIENTLY, UI AND DATA LAYER WORKS IN SYNC
 REACT ISNT A FULL FLEDGED FRAMEFORM ITS A LIBRARYY
+REACT's RENDER CYCLE IS VERY FAST
 NPM is everything but node package manager
 npm init => test => jest
 
@@ -54,4 +56,47 @@ In react we have props, if we want to dynamically pass data to a component, we u
 at the end of the day props are just normal arguments to a function
 we can also destructure props on the fly! "{resName, resCousing}" so we dont have to use props.resName
 
-ConfigDriven UI ==> 
+ConfigDriven UI ==> A website is driven by config, basically driven by a config (which is sent by backend), config is the data
+UI LAYER + DATA LAYER = Frontend
+
+Cloudinary is a cdn, all the images are hosted on the cdn
+"?." or resData?.data; is called as optional chaining
+In technical terms, you use a ?. operator. This tells the code: "Try to access this property, 
+and if at any point something doesn't exist, just stop and return undefined instead of throwing an error."
+
+Whenever u are looping on to anything using map func, u have to give a key. so react doesnt have to rerender everything and only
+render what comes new
+without key isnt acceptable. bad practice
+React doesnt recomend using index as keys..
+if we dont have unique id we can use keys but still not recommended 
+
+when we have to export multiple things, we will use named imports/exports
+So there are two types of exports and imports
+1) Default => export default Component; import Component from "path";
+
+2) Named => export const Component; import {Component} from "path";
+
+
+Monolith architecture is everything in one
+Microservice is grp of small services not everything in one, this is also called asseperation of concenrs/single responsibility principle
+
+State Variable - Super Powerful Variable (it maintains the state of the variable)
+
+#React Hooks
+They are normal js utility functions
+-useState() - Superpowerful react variable - const[variablename] = useState([]);
+Whenever a state variable updated, react rerenders a componenets
+
+Virtual Dom is a representation of Actual DOM
+Diff Algo finds out the difference between the updated virtual dom and old virtual dom (in old react)
+
+React uses Reconciliation Algo (React Fiber) => Came in React16, new way of finding the diff and updating the dom
+
+For APi calls there are two ways
+first is when the website loads, wait for api to return data, then render everything
+second is when the website loads, render the ui skeleton, wait for api to return data, as soon as data comes, we will render data
+
+
+-useEffect()
+it works like when a component renders, and as soon as it finishes render, then only useffect will get called
+ShimerUI is fake page which we render as a loader

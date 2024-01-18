@@ -46,3 +46,24 @@
   padding-top: 35px;
   padding-left: 30px;
 }
+
+.filter-button {
+  cursor: pointer;
+}
+
+.shimmer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  animation: shimmer 1s infinite linear;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
